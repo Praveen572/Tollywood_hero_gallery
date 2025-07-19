@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prabhas Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px auto 10px;
+    padding: 25px;
+    }
+    .hero-photo {
+      width: 250px;
+      margin: 20px auto;
+      border-radius: 15px;
+      border: 3px solid #444;
+    }
+
+    .movies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .movie-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .movie-title {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .see-more-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-more-button:hover {
+    background-color: #FFC300;
+    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+    transform: scale(1.05);
+  }
+  .see-more-button:active{
+    transform: scale(0.98);
+  }
+  footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+  </style>
+</head>
+<body>
+
+  <h1> Prabhas Movie Gallery</h1>
+
+  <img src="hero-img/prabas.jpg" alt="prabhas" class="hero-photo">
+<div class="main-content">
+  <div class="movies-container">
+    <!-- First visible movies -->
+    <div class="movie-card">
+     <a href="https://www.imdb.com/title/tt5306972/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/Kannappa.jpeg" alt="Kannappa"></a> 
+      <div class="movie-title">Kannappa</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt12735488/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/kalki.jpeg" alt="kalki"></a>
+      <div class="movie-title">Kalki</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt13927994/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/salaar .jpeg" alt="salaar"></a>
+      <div class="movie-title">Salaar</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt12915716/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/adhipurus.jpeg" alt="adhipurus"></a>
+      <div class="movie-title">Adipurush</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt8960382/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/Radhe_Shyam.jpeg" alt="Radhe Shyam"></a>
+      <div class="movie-title">Radhe Shyam</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt6836936/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/sahoo.jpeg" alt="sahoo"></a>
+      <div class="movie-title">Saaho</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/W1r2jy12nVU" target="_blank"><img src="Prabhas/bahubali-2.jpeg" alt="bahubali-2"></a>
+      <div class="movie-title">Bahubali-2</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/9WWDKXIsWw4" target="_blank"><img src="Prabhas/bahubali-1.jpeg" alt="Bahubali-1"></a>
+      <div class="movie-title">Bahubali-1</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/b8dvhBPrGtw" target="_blank"><img src="Prabhas/mirchi.jpeg" alt="mirchi"></a>
+      <div class="movie-title">Mirchi</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/nf1OpDXnrCc" target="_blank"><img src="Prabhas/rebal.jpeg" alt="rebal"> </a>
+      <div class="movie-title">Rebel</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/nf1OpDXnrCc" target="_blank"><img src="Prabhas/mr.perfect-1.jpeg" alt="mr.perfect"></a>
+      <div class="movie-title">Mr.Perfect</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/H-sN57Qu6fI" target="_blank"><img src="Prabhas/darling.jpeg" alt="darling"></a>
+      <div class="movie-title">Darling</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/f9SIFownXUk" target="_blank"><img src="Prabhas/Ek Niranjan.jpeg" alt="ek Niranjan"></a>
+      <div class="movie-title">Ek Niranjan</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/3ige8xsvwsA" target="_blank"><img src="Prabhas/billa.jpeg" alt="Billa"></a>
+      <div class="movie-title">Billa</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/8GgTogVBjRo" target="_blank"><img src="Prabhas/Bujjigadu.jpeg" alt="Bujjigadu"></a>
+      <div class="movie-title">Bujjigadu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/l9ReKBDaZVo" target="_blank"><img src="Prabhas/munna.jpeg" alt="munna"></a>
+      <div class="movie-title">Munna</div>
+    </div>
+
+    <!-- Hidden movies -->
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0887793/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/yogi.jpeg" alt="yogi"></a>
+      <div class="movie-title">Yogi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/0nC_mx57CtU" target="_blank"><img src="Prabhas/Pournami.jpeg" alt="Pournami"></a>
+      <div class="movie-title">Pournami</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/gBkL9foQxBk" target="_blank"><img src="Prabhas/chatrapathi .jpeg" alt="chatrapathi"></a>
+      <div class="movie-title">Chatrapathi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/PKePryv8oZg" target="_blank"><img src="Prabhas/Chakram.jpeg" alt="Chakram"></a>
+      <div class="movie-title">Chakram</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0416458/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/adavi ramudu.jpeg" alt="adavi ramudu"></a>
+      <div class="movie-title">Aadavi Ramudu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/f8wRhgAIiMc" target="_blank"><img src="Prabhas/varsham.jpeg" alt="varsham"></a>
+      <div class="movie-title">Varsham</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/TDoA-7LqIuE" target="_blank"><img src="Prabhas/raghavendra.jpeg" alt="raghavendra"></a>
+      <div class="movie-title">Raghavendra</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0924219/?ref_=ext_shr_lnk" target="_blank"><img src="Prabhas/eshwar-1.jpg" alt="eshwar"></a>
+      <div class="movie-title">Eeshwar</div>
+    </div>
+  </div>
+
+  <button class="see-more-button" onclick="showMore()">See More</button>
+ </div>
+ <footer>
+  <div class="foot">
+    <h3>&copy; 2025 Mavuri Praveen. All rights reserved.</h3>
+    <p> Prabhas Social Media Accounts </p>
+    <ul>
+      <li><a href="https://www.instagram.com/actorprabhas?utm_source=ig_web_button_share_sheet&igsh=MXYzNGo1M2h2ZXAwbw==" target="_blank">Instagram</a></li>|
+      <li><a href="https://www.facebook.com/Prabhas" target="_blank">Facebook</a></li>|
+      <li><a href="https://www.youtube.com/@GeethaArts" target="_blank">YouTube via Geetha Arts</a></li>
+  </ul>
+
+    </ul>
+    <p style="font-size:12px; color:gray;">
+    *Twitter account @actorprabhas currently unavailable
+  </p>
+
+  </div>
+</footer>
+
+  <script>
+    function showMore() {
+      const hiddenMovies = document.querySelectorAll('.extra-movie');
+      hiddenMovies.forEach(movie => movie.classList.remove('hidden'));
+      document.querySelector('.see-more-button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html

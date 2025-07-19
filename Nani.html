@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Nani Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px auto 10px;
+    padding: 25px;
+    }
+    .hero-photo {
+      width: 250px;
+      margin: 20px auto;
+      border-radius: 15px;
+      border: 3px solid #444;
+    }
+
+    .movies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .movie-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .movie-title {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .see-more-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-more-button:hover {
+    background-color: #FFC300;
+    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+    transform: scale(1.05);
+  }
+  .see-more-button:active{
+    transform: scale(0.98);
+  }
+  footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+  </style>
+</head>
+<body>
+
+  <h1>  Nani Movie Gallery</h1>
+
+  <img src="hero-img/nani.jpeg" alt="prabhas" class="hero-photo">
+<div class="main-content">
+  <div class="movies-container">
+    <!-- First visible movies -->
+    <div class="movie-card">
+     <a href="https://www.imdb.com/title/tt23804696/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Hit3.jpeg" alt="Hit-3"></a> 
+      <div class="movie-title">HIT-3</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt26903104/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/saripodha senivaram.jpeg" alt="saripodha senivaram"></a>
+      <div class="movie-title">Saripodhaa Sanivaaram</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt25433734/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/hi nanna.jpeg" alt="Hi Nanna"></a>
+      <div class="movie-title">Hi Nanna</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt15440322/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Dasara .jpeg" alt="Dasara"></a>
+      <div class="movie-title">Dasara</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt13528564/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Ante sundharaniki.jpeg" alt="Ante Sundharaniki"></a>
+      <div class="movie-title">Ante Sundharaniki</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/2sII3J3nGrY" target="_blank"><img src="Nani/shyam singaroy.jpeg" alt="shyam singaroy"></a>
+      <div class="movie-title">shyam singha roy</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt11385078/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Tuk Jagadeesh.jpeg" alt="tuck jagadheesh"></a>
+      <div class="movie-title">Tuck Jagadish</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt11385128/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/v.jpeg" alt="v"></a>
+      <div class="movie-title">V</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/h_5dsdq2X90" target="_blank"><img src="Nani/Nani's gangs leader.jpeg" alt="gang leader"></a>
+      <div class="movie-title">Nani's Gang Leader</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/kzv4lqpKi6k" target="_blank"><img src="Nani/jersy.jpeg" alt="jersy"></a>
+      <div class="movie-title">Jersy</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/RKo4GMc4f6w" target="_blank"><img src="Nani/MCA.jpeg" alt="MCA"> </a>
+      <div class="movie-title">MCA</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/uwJYlzoT0eE" target="_blank"><img src="Nani/Ninnu Kori .jpeg" alt="Ninnu kori"></a>
+      <div class="movie-title">Ninnu Kori</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/sqW95LOMrBU" target="_blank"><img src="Nani/nenu local.jpeg" alt="Nenu Local"></a>
+      <div class="movie-title">Nenu Local</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/U8sxkUyLuFI" target="_blank"><img src="Nani/Majnu.jpeg" alt="Majnu"></a>
+      <div class="movie-title">Majnu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt5815940/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/gentelman.jpeg" alt="gentelman"></a>
+      <div class="movie-title">Gentelman</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/h9lnYpU5TYw" target="_blank"><img src="Nani/Krisha gadi vera prema kadha.jpeg" alt=" Krishna Gaadi Veera Prema Gaadha"></a>
+      <div class="movie-title"> Krishna Gaadi Veera Prema Gaadha</div>
+    </div>
+
+    <!-- Hidden movies -->
+     <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/ZA-_OBmJ7HE" target="_blank"><img src="Nani/Bale Bale Magadivoy .jpeg" alt="Bhale Bhale Magadivoy"></a>
+      <div class="movie-title">Bhale Bhale Magadivoy</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt4515070/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Yevade subramanyam.jpeg" alt="Yevade Subramanyam "></a>
+      <div class="movie-title">Yevade Subramanyam </div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/Wr2mBrMvtbE" target="_blank"><img src="Nani/yeto-vellipoyindhi-manasu.avif" alt="Yeto Vellipoyindhi Manasu"></a>
+      <div class="movie-title">Yeto Vellipoyindhi Manasu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/TU0W5BMpCPo" target="_blank"><img src="Nani/eega.jpg" alt="Eega"></a>
+      <div class="movie-title">Eega</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/u4fetE5LDqg" target="_blank"><img src="Nani/pilla-zamindar.avif" alt="Pilla Zamindar"></a>
+      <div class="movie-title">Pilla Zamindar</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/ZGDvYKKVRGg" target="_blank"><img src="Nani/ala-modalaindi.avif" alt=" Ala Modalaindi"></a>
+      <div class="movie-title"> Ala Modalaindi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/hu8NDQ8R3zU" target="_blank"><img src="Nani/Beemili.jpg" alt="Bheemili Kabaddi Jattu."></a>
+      <div class="movie-title">Bheemili Kabaddi Jattu.</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt1580023/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Snehithuda-1.jpeg" alt="Snehituda."></a>
+      <div class="movie-title">Snehituda</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt1580017/?ref_=ext_shr_lnk" target="_blank"><img src="Nani/Ride.avif" alt="Ride"></a>
+      <div class="movie-title">Ride</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/BU2Zb9ybV6o" target="_blank"><img src="Nani/ashta-chamma.avif" alt="Ashta Chamma"></a>
+      <div class="movie-title">Ashta Chamma</div>
+    </div>
+  </div>
+
+  <button class="see-more-button" onclick="showMore()">See More</button>
+ </div>
+ <footer>
+  <div class="foot">
+    <h3>&copy; 2025 Mavuri Praveen. All rights reserved.</h3>
+    <p> Nani  Social Media Accounts </p>
+    <ul>
+    <li><a href="https://www.instagram.com/nameisnani" target="_blank">Instagram</a></li>|
+    <li><a href="https://twitter.com/NameisNani" target="_blank">Twitter</a></li>|
+    <li><a href="https://www.facebook.com/Nani" target="_blank">Facebook</a></li>
+  </ul>
+
+  </div>
+</footer>
+
+  <script>
+    function showMore() {
+      const hiddenMovies = document.querySelectorAll('.extra-movie');
+      hiddenMovies.forEach(movie => movie.classList.remove('hidden'));
+      document.querySelector('.see-more-button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html

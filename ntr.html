@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>jr ntr Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px auto 10px;
+    padding: 25px;
+    }
+    .hero-photo {
+      width: 250px;
+      margin: 20px auto;
+      border-radius: 15px;
+      border: 3px solid #444;
+    }
+
+    .movies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .movie-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .movie-title {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+   .see-more-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-more-button:hover {
+    background-color: #FFC300;
+    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+    transform: scale(1.05);
+  }
+  .see-more-button:active{
+    transform: scale(0.98);
+  }
+  footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+  </style>
+</head>
+<body>
+
+  <h1> Jr NTR Movie Gallery</h1>
+
+  <img src="hero-img/ntr.jpg" alt="prabhas" class="hero-photo">
+<div class="main-content">
+  <div class="movies-container">
+    <!-- First visible movies -->
+    <div class="movie-card">
+     <a href="https://www.imdb.com/title/tt11821912/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/devara.jpeg" alt="devara"></a> 
+      <div class="movie-title">Devara : Part-1</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt8178634/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/RRR.jpeg" alt="RRR"></a>
+      <div class="movie-title">RRR</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt7765910/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/ravendha sametha.jpeg" alt="aravinda sametha veera raghava"></a>
+      <div class="movie-title">Aravinda Sametha veera raghava</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/-MEka9Y6q6k" target="_blank"><img src="ntr/jai lava kusa.jpeg" alt="jai laa kusa"></a>
+      <div class="movie-title">Jai Lava Kusa</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/_Nq2m5LRQ3g" target="_blank"><img src="ntr/Janata Garage.jpeg" alt="janatha Garage"></a>
+      <div class="movie-title">Jenatha Geraje</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt5098128/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/Nannaku Prematho.jpeg" alt="Nannaku Prematho"></a>
+      <div class="movie-title">Nannaku Prematho</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt4442758/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/temper.jpeg" alt="temper"></a>
+      <div class="movie-title">Temper</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt3916762/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/Rabhasa.jpeg" alt="Rabhasa"></a>
+      <div class="movie-title">Rabhasa</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/tVLu60NDjZY" target="_blank"><img src="ntr/ramayya vastavayya.jpeg" alt="ramayya vastavayya"></a>
+      <div class="movie-title">Ramayya Vasthavayya</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/k-fT-UF1BOg" target="_blank"><img src="ntr/baadsha.jpeg" alt="Baadshah"> </a>
+      <div class="movie-title">Baadshah</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/betuQ2tDAo4" target="_blank"><img src="ntr/dhammu.jpeg" alt="dhammu"></a>
+      <div class="movie-title">Dhammu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt1890493/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/oosaravelli.jpeg" alt="oosaravelli"></a>
+      <div class="movie-title">Oosaravelli</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/GuMMzdHW-CU" target="_blank"><img src="ntr/Shakthi movie.jpeg" alt="Shakthi"></a>
+      <div class="movie-title">Shakthi</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/KGa8wieNE6s" target="_blank"><img src="ntr/brundhavanam.jpeg" alt="brundhavanam"></a>
+      <div class="movie-title">Brindhavanam</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/SAd1y3BEDs0" target="_blank"><img src="ntr/adhuras.jpeg" alt="adhurs"></a>
+      <div class="movie-title">Adhurs</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/rHAtkDlxFqw" target="_blank"><img src="ntr/kantri.jpeg" alt="kantri"></a>
+      <div class="movie-title">Kantri</div>
+    </div>
+
+    <!-- Hidden movies -->
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/vacL8i-A4tk" target="_blank"><img src="ntr/yamadonga.jpeg" alt="yamadonga"></a>
+      <div class="movie-title">Yamadonga</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/pcPuwddoDNg" target="_blank"><img src="ntr/rakhi.avif" alt="rakhi"></a>
+      <div class="movie-title">Rakhi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/VbvT7-GcQGo" target="_blank"><img src="ntr/ashok.jpg" alt="Ashok"></a>
+      <div class="movie-title">Ashok</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/F1LCXfP5DRc" target="_blank"><img src="ntr/Narasimhudu.jpg" alt="Narasimhudu"></a>
+      <div class="movie-title">Narasimhudu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/iCqzRVDJz-0" target="_blank"><img src="ntr/Naa Alludu.jpeg" alt="Naa Alludu"></a>
+      <div class="movie-title">Naa Alludu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/0CPcrb5YxB0" target="_blank"><img src="ntr/samba.avif" alt="Samba"></a>
+      <div class="movie-title">Samba</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/p0P8VWg35hY" target="_blank"><img src="ntr/andhrawala.avif" alt="andhrawala"></a>
+      <div class="movie-title">Andhrawala</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/6_TavfvdMSc" target="_blank"><img src="ntr/simhadri-1.jpg" alt="simhadri"></a>
+      <div class="movie-title">Simhadri</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/3yQrzR03uyk" target="_blank"><img src="ntr/Naaga.jpg" alt="Naaga"></a>
+      <div class="movie-title">Naaga</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/_29c-X9EDjc" target="_blank"><img src="ntr/allari ramudu.cms" alt="allari Ramudu"></a>
+      <div class="movie-title">Allari Ramudu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/Y4OP5tzCHK8" target="_blank"><img src="ntr/Aadi.jpeg" alt="Aadi"></a>
+      <div class="movie-title">Aadi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/87LYZGt4tyw" target="_blank"><img src="ntr/subbu.jpg" alt="subbu"></a>
+      <div class="movie-title">Subbu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/k7A-uku5TiQ" target="_blank"><img src="ntr/student no 1.jpg" alt="student no 1"></a>
+      <div class="movie-title">Student No-1</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0924258/?ref_=ext_shr_lnk" target="_blank"><img src="ntr/ninnu choodalani.jpeg" alt="ninnu choodalani"></a>
+      <div class="movie-title">Ninnu Choodalani</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/0tL2omnJ4PM" target="_blank"><img src="ntr/ramayanam.jpg" alt="ramayanam"></a>
+      <div class="movie-title">Ramayanam</div>
+    </div>
+  </div>
+
+  <button class="see-more-button" onclick="showMore()">See More</button>
+ </div>
+ <footer>
+  <div class="foot">
+    <h3>&copy; 2025 Mavuri Praveen. All rights reserved.</h3>
+    <p> Jr NTR Social Media Accounts </p>
+    <ul>
+    <li><a href="https://www.instagram.com/jrntr" target="_blank">Instagram</a></li>|
+    <li><a href="https://twitter.com/tarak9999" target="_blank">Twitter</a></li>|
+    <li><a href="https://www.facebook.com/JrNTR" target="_blank">Facebook</a></li>
+  </ul>
+  </div>
+</footer>
+
+  <script>
+    function showMore() {
+      const hiddenMovies = document.querySelectorAll('.extra-movie');
+      hiddenMovies.forEach(movie => movie.classList.remove('hidden'));
+      document.querySelector('.see-more-button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html

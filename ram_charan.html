@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Ram Charan Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px auto 10px;
+    padding: 25px;
+    }
+    .hero-photo {
+      width: 250px;
+      margin: 20px auto;
+      border-radius: 15px;
+      border: 3px solid #444;
+    }
+
+    .movies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .movie-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .movie-title {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+     .see-more-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-more-button:hover {
+    background-color: #FFC300;
+    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+    transform: scale(1.05);
+  }
+  .see-more-button:active{
+    transform: scale(0.98);
+  }
+  footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+  </style>
+</head>
+<body>
+
+  <h1> Ram Charan Movie Gallery</h1>
+
+  <img src="hero-img/ram_charan.jpeg" alt="Allu Arjun" class="hero-photo">
+<div class="main-content">
+  <div class="movies-container">
+    <!-- First visible movies -->
+    <div class="movie-card">
+     <a href="https://www.imdb.com/title/tt14209618/?ref_=ext_shr_lnk" target="_blank"><img src="ram_charan/game changer.jpeg" alt="game changer"></a> 
+      <div class="movie-title">Game Changer</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/8wiq3n_urgg" target="_blank"><img src="ram_charan/Acharaya.jpeg" alt="Acharaya"></a>
+      <div class="movie-title">Acharaya</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt8178634/?ref_=ext_shr_lnk" target="_blank"><img src="ram_charan/RRR.jpeg" alt="RRR"></a>
+      <div class="movie-title">RRR</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/FI4Gq2NXLPw" target="_blank"><img src="ram_charan/vinay vidheya rama.jpeg" alt="Vinaya Vidheya Rama"></a>
+      <div class="movie-title">Vinaya Vidheya Rama</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt7392212/?ref_=ext_shr_lnk" target="_blank"><img src="ram_charan/rangastalam.jpeg" alt="Rangasthalam"></a>
+      <div class="movie-title">Rangasthalam</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/vINrat94sFc" target="_blank"><img src="ram_charan/Druva.jpeg" alt="Dhruva"></a>
+      <div class="movie-title">Dhruva</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/6MZRf4uncIw" target="_blank"><img src="ram_charan/bruce_lee.jpeg" alt="bruce_lee"></a>
+      <div class="movie-title">Bruce Lee: The Fighter</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/nVsJLEIMnmE" target="_blank"><img src="ram_charan/govindhadu adharivadule.jpeg" alt="Govindudu Andarivadele"></a>
+      <div class="movie-title">Govindudu Andarivadele</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/fob0ZaRHapA" target="_blank"><img src="ram_charan/Yevadu.jpeg" alt="yevadu"></a>
+      <div class="movie-title">Yevadu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt2357489/?ref_=ext_shr_lnk" target="_blank"><img src="ram_charan/Zanjeer.jpeg" alt="Zanjeer"> </a>
+      <div class="movie-title">Zanjeer</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/W03c_X8VcV0" target="_blank"><img src="ram_charan/Nayak.jpeg" alt="Naayak"></a>
+      <div class="movie-title">Naayak</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/LWv6s-4Zn48" target="_blank"><img src="ram_charan/Racha.jpeg" alt="Rachha"></a>
+      <div class="movie-title">Rachha</div>
+    </div>
+    <!-- Hidden movies -->
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/1uPnKmqWkEI" target="_blank"><img src="ram_charan/Orange.jpeg" alt="Orange"></a>
+      <div class="movie-title">Orange</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/G7haVu5g-Qw" target="_blank"><img src="ram_charan/magadheera.jpeg" alt="Magadheera"></a>
+      <div class="movie-title">Magadheera</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/_jvUsPiPJqM" target="_blank"><img src="ram_charan/Chirutha.jpeg" alt="Chirutha"></a>
+      <div class="movie-title">Chirutha</div>
+    </div>
+  </div>
+
+  <button class="see-more-button" onclick="showMore()">See More </button>
+ </div>
+ <footer>
+  <div class="foot">
+    <h3>&copy; 2025 Mavuri Praveen. All rights reserved.</h3>
+    <p> Ram Charan Social Media Accounts </p>
+    <ul>
+  <li><a href="https://www.instagram.com/alwaysramcharan" target="_blank">Instagram</a></li>|
+  <li><a href="https://twitter.com/AlwaysRamCharan" target="_blank">Twitter </a></li>|
+  <li><a href="https://www.facebook.com/AlwaysRamCharan" target="_blank">Facebook</a></li>|
+  <li><a href="https://www.youtube.com/@AlwaysRamCharan" target="_blank">YouTube </a></li>
+</ul>
+
+  </div>
+</footer>
+
+  <script>
+    function showMore() {
+      const hiddenMovies = document.querySelectorAll('.extra-movie');
+      hiddenMovies.forEach(movie => movie.classList.remove('hidden'));
+      document.querySelector('.see-more-button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html

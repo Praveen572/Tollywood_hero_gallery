@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+      font-family: Arial, sans-serif;
+      background-color:#39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: #ffd700;
+      text-shadow: 0 0 10px #ffd700, 0 0 20px #ff8c00;
+      padding: 30px 0;
+      margin: 0;
+    }
+    p{
+      background-color: #1a1a1a;
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffd700, 0 0 10px #ff8c00;
+      padding-bottom: 20px;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 100px auto 50px;
+    padding: 20px;
+    }
+    .heros-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 30px;
+    }
+
+    .hero-card {
+      background-color: #fff8e1;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .hero-card:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .hero-card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .hero-name {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #222222;
+    }
+    footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot h6 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}

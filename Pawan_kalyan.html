@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Pawan Kalyan Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px auto 10px;
+    padding: 25px;
+    }
+    .hero-photo {
+      width: 250px;
+      margin: 20px auto;
+      border-radius: 15px;
+      border: 3px solid #444;
+    }
+
+    .movies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .movie-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .movie-title {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+     .see-more-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-more-button:hover {
+    background-color: #FFC300;
+    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+    transform: scale(1.05);
+  }
+  .see-more-button:active{
+    transform: scale(0.98);
+  }
+  footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+  </style>
+</head>
+<body>
+
+  <h1> Pawan Kalyan Movie Gallery</h1>
+
+  <img src="hero-img/pawan.jpeg" alt="prabhas" class="hero-photo">
+<div class="main-content">
+  <div class="movies-container">
+    <!-- First visible movies -->
+    <div class="movie-card">
+     <a href="https://www.imdb.com/title/tt26675491/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/bro-1.jpg" alt="bro"></a> 
+      <div class="movie-title">Bro</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/R7a04zYaf2M" target="_blank"><img src="pawan/bheemla nayak.jpg" alt="Bheemla Nayak"></a>
+      <div class="movie-title">Bheemla Nayak</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt8269248/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/vakeel saab.jpg" alt="Vakeel Saab"></a>
+      <div class="movie-title">Vakeel Saab</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt7711342/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/Agnyaathavaasi.jpg" alt="Agnyaathavaasi: Prince in Exile"></a>
+      <div class="movie-title">Agnyaathavaasi: Prince in Exile</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt6522398/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/Katamarayudu.jpg" alt="Katamarayudu"></a>
+      <div class="movie-title">Katamarayudu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/KaxLm3zkWiM" target="_blank"><img src="pawan/sardaar gabbar sing.jpg" alt="sardaar gabbar sing"></a>
+      <div class="movie-title">Sardaar Gabbar Sing</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/FQNlo89vgJo" target="_blank"><img src="pawan/gopala-gopala.avif" alt="Gopala Gopala"></a>
+      <div class="movie-title">Gopala Gopala</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/6yH0ViJrXhM" target="_blank"><img src="pawan/Attarintiki daredi.jpg" alt="Attarintiki daredi"></a>
+      <div class="movie-title">Attarintiki Daredi</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/-S4J8FKnNKY" target="_blank"><img src="pawan/cameraman.jpg" alt="Cameraman Gangatho Rambabu"></a>
+      <div class="movie-title">Cameraman Gangatho Rambabu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/EztUsjJAh0E" target="_blank"><img src="pawan/gabbar sing.jpg" alt="Gabbar Singh"> </a>
+      <div class="movie-title">Gabbar Singh</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/LZTf2rtxzQs" target="_blank"><img src="pawan/panjaa.avif" alt="Panjaa"></a>
+      <div class="movie-title">Panjaa</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/COs_agPAJF0" target="_blank"><img src="pawan/teen-maar.avif" alt=" Teen Maar"></a>
+      <div class="movie-title"> Teen Maar</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt0464162/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/komaram puli.jpeg" alt="Komaram Puli"></a>
+      <div class="movie-title">Komaram Puli</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/68wSTlrw_RQ" target="_blank"><img src="pawan/jalsa.jpg" alt="Jalsa"></a>
+      <div class="movie-title">Jalsa</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt0493389/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/annavaram.avif" alt=" Annavaram"></a>
+      <div class="movie-title"> Annavaram</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt0469027/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/bangaram.jpg" alt="kantri"></a>
+      <div class="movie-title">Kantri</div>
+    </div>
+
+    <!-- Hidden movies -->
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0437084/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/balu.jpg" alt="balu"></a>
+      <div class="movie-title">Balu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0354965/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/gudumba-shankar.avif" alt="gudumba shankar"></a>
+      <div class="movie-title">Gudumba shankar</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/zAtgTpO-724" target="_blank"><img src="pawan/johnny.jpg" alt="jhonny"></a>
+      <div class="movie-title">Jhonny</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/i8uptlNuy-s" target="_blank"><img src="pawan/kushi.jpg" alt="Kushi"></a>
+      <div class="movie-title">Kushi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0247945/?ref_=ext_shr_lnk" target="_blank"><img src="pawan/badri.jpg" alt="badri"></a>
+      <div class="movie-title">Badri</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/gr7TttotBD8" target="_blank"><img src="pawan/thammudu.jpg" alt="Thammudu"></a>
+      <div class="movie-title">Thammudu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/zed5SZ2EiY0?list=RDzed5SZ2EiY0" target="_blank"><img src="pawan/tholi_prema.avif" alt="tholi_prema"></a>
+      <div class="movie-title">Tholi Prema</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/H8A2XuFoD1Y" target="_blank"><img src="pawan/suswagatham.jpeg" alt="Suswagatham"></a>
+      <div class="movie-title">Suswagatham</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/A1GSImWk8Uk" target="_blank"><img src="pawan/gokulamlo seetha.jpg" alt="Gokulamlo Seetha"></a>
+      <div class="movie-title">Gokulamlo Seetha</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/Vl5a-mrhXGk" target="_blank"><img src="pawan/Akkada_ammayi.jpg" alt="Akkada Ammayi Ikkada Abbayi"></a>
+      <div class="movie-title">Akkada Ammayi Ikkada Abbayi</div>
+    </div>
+  </div>
+
+  <button class="see-more-button" onclick="showMore()">See More</button>
+ </div>
+ <footer>
+  <div class="foot">
+    <h3>&copy; 2025 Mavuri Praveen. All rights reserved.</h3>
+    <p> Pawan Kalyan Social Media Accounts </p>
+  <ul>
+  <li><a href="https://www.instagram.com/pawankalyan" target="_blank">Instagram</a></li>|
+  <li><a href="https://twitter.com/PawanKalyan" target="_blank">Twitter</a></li>|
+  <li><a href="https://www.facebook.com/PawanKalyan" target="_blank">Facebook</a></li>
+</ul>
+
+  </div>
+</footer>
+
+  <script>
+    function showMore() {
+      const hiddenMovies = document.querySelectorAll('.extra-movie');
+      hiddenMovies.forEach(movie => movie.classList.remove('hidden'));
+      document.querySelector('.see-more-button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html

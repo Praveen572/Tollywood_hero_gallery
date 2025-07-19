@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Mahesh Babu Movies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #39297b;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 0;
+      margin: 0;
+    }
+    .main-content{
+    width: 1200px;
+    height: auto;
+    border: 2rem;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px auto 10px;
+    padding: 25px;
+    }
+    .hero-photo {
+      width: 250px;
+      margin: 20px auto;
+      border-radius: 15px;
+      border: 3px solid #444;
+    }
+
+    .movies-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 40px;
+      max-width: 1050px;
+      margin: 0 auto;
+    }
+
+    .movie-card {
+      background-color: white;
+      width: 220px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .movie-card:hover {
+      transform: scale(1.05);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .movie-title {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+   .see-more-button {
+    background-color: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .see-more-button:hover {
+    background-color: #FFC300;
+    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+    transform: scale(1.05);
+  }
+  .see-more-button:active{
+    transform: scale(0.98);
+  }
+  footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.foot h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.foot p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.foot ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.foot ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.foot ul li a {
+  color: #f0c330;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot ul li a:hover {
+  text-decoration: underline;
+  color: #ffeb3b;
+}
+  </style>
+</head>
+<body>
+
+  <h1> Mahesh Babu Movie Gallery</h1>
+
+  <img src="hero-img/mahesh.jpeg" alt="prabhas" class="hero-photo">
+<div class="main-content">
+  <div class="movies-container">
+    <!-- First visible movies -->
+    <div class="movie-card">
+     <a href="https://www.imdb.com/title/tt14564000/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/guntur karram.jpg" alt="Guntur Kaaram"></a> 
+      <div class="movie-title">Guntur Kaaram</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt12422308/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/sarkaru vari paata-1.jpg" alt="Sarkaru Vaari Paata"></a>
+      <div class="movie-title">Sarkaru Vaari Paata</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt10773090/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/sarileru nikevvaru.jpg" alt="Sarileru Neekevvaru"></a>
+      <div class="movie-title">Sarileru Neekevvaru</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt8333978/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/maharshi.jpeg" alt="Maharshi"></a>
+      <div class="movie-title">Maharshi</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://www.imdb.com/title/tt6980546/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/bharat-ane-nenu.avif" alt="Bharat Ane Nenu"></a>
+      <div class="movie-title">Bharat Ane Nenu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/Oc0tSnGmYH0" target="_blank"><img src="mahesh_babu/Spyder.jpg" alt="Spyder"></a>
+      <div class="movie-title">Spyder</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/ZKbydYg8R-E" target="_blank"><img src="mahesh_babu/brahmotsavam.jpg" alt="Brahmotsavam"></a>
+      <div class="movie-title"> Brahmotsavam</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/LS6XiINMc2s" target="_blank"><img src="mahesh_babu/srimanthudu.jpg" alt="Srimanthudu"></a>
+      <div class="movie-title">Srimanthudu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/hravgftk9gQ" target="_blank"><img src="mahesh_babu/Aagadu.jpg" alt="Aagadu"></a>
+      <div class="movie-title">Aagadu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/KoctVcmN8zQ" target="_blank"><img src="mahesh_babu/Nenokkadine.avif" alt="1: Nenokkadine"> </a>
+      <div class="movie-title">1: Nenokkadine</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/V1WvqCBE7Bw" target="_blank"><img src="mahesh_babu/seethamma-vakitlo-sirimalle-chettu-1.jpg" alt="Seethamma Vakitlo Sirimalle Chettu"></a>
+      <div class="movie-title">Seethamma Vakitlo Sirimalle Chettu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/8AD-jFF1RaM" target="_blank"><img src="mahesh_babu/Businessmen.jpg" alt="Businessman"></a>
+      <div class="movie-title">Businessman</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/M5rXgWKooz0" target="_blank"><img src="mahesh_babu/Dookudu.jpg" alt="Dookudu"></a>
+      <div class="movie-title">Dookudu</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/Fbnq1qFuuyU" target="_blank"><img src="mahesh_babu/Kheleja.jpg" alt="Khaleja"></a>
+      <div class="movie-title">Khaleja</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/6_5U4-EpP8E" target="_blank"><img src="mahesh_babu/Athidhi.jpg" alt="Athidhi"></a>
+      <div class="movie-title">Athidhi</div>
+    </div>
+    <div class="movie-card">
+      <a href="https://youtu.be/uMz7HeehzCw" target="_blank"><img src="mahesh_babu/sainikudu.jpg" alt="Sainikudu"></a>
+      <div class="movie-title">Sainikudu</div>
+    </div>
+
+    <!-- Hidden movies -->
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/thcuCL1wwhY" target="_blank"><img src="mahesh_babu/pokiri.jpg" alt="Pokiri"></a>
+      <div class="movie-title">Pokiri</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt0471571/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/Athadu.jpg" alt="Athadu"></a>
+      <div class="movie-title">Athadu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/PHTJUMyQbMY" target="_blank"><img src="mahesh_babu/Arjun.jpg" alt="Arjun"></a>
+      <div class="movie-title">Arjun</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/QyBlwqmNM3U" target="_blank"><img src="mahesh_babu/Naani.jpg" alt="Naani"></a>
+      <div class="movie-title">Naani</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/Fq3vAPkKe4E" target="_blank"><img src="mahesh_babu/Nijam.jpg" alt="Nijam"></a>
+      <div class="movie-title">Nijam</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/uRbKSPsLwEw" target="_blank"><img src="mahesh_babu/Okkadu.jpg" alt="Okkadu"></a>
+      <div class="movie-title">Okkadu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/eKimdEr-kZA" target="_blank"><img src="mahesh_babu/Bobby.jpg" alt="Bobby"></a>
+      <div class="movie-title">Bobby</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/1adFsL-jgYk" target="_blank"><img src="mahesh_babu/Takkari Donga.jpg" alt="Takkari Donga"></a>
+      <div class="movie-title">Takkari Donga</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://www.imdb.com/title/tt1183907/?ref_=ext_shr_lnk" target="_blank"><img src="mahesh_babu/Murari.jpg" alt="Murari"></a>
+      <div class="movie-title">Murari</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/ywSYCFDQ-XE" target="_blank"><img src="mahesh_babu/Vamsi.jpg" alt="Vamsi"></a>
+      <div class="movie-title">Vamsi</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/mV6Lg2UCoj0" target="_blank"><img src="mahesh_babu/Yuvaraju.jpg" alt="Yuvaraju"></a>
+      <div class="movie-title">Yuvaraju</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/z4FK_IKIwQE" target="_blank"><img src="mahesh_babu/Raja Kumarudu.jpg" alt="Rajakumarudu"></a>
+      <div class="movie-title">Rajakumarudu</div>
+    </div>
+    <div class="movie-card hidden extra-movie">
+      <a href="https://youtu.be/_CJ_47FKyzA" target="_blank"><img src="mahesh_babu/balachandrudu-1.jpg" alt="Balachandrudu"></a>
+      <div class="movie-title">Balachandrudu</div>
+    </div>
+  </div>
+
+  <button class="see-more-button" onclick="showMore()">See More</button>
+ </div>
+ <footer>
+  <div class="foot">
+    <h3>&copy; 2025 Mavuri Praveen. All rights reserved.</h3>
+    <p> Mahesh Babu Social Media Accounts </p>
+    <ul>
+    <li><a href="https://www.instagram.com/urstrulymahesh" target="_blank">Instagram</a></li>|
+    <li><a href="https://twitter.com/urstrulyMahesh" target="_blank">Twitter</a></li>|
+    <li><a href="https://www.facebook.com/urstrulymahesh" target="_blank">Facebook</a></li>
+  </ul>
+  </div>
+</footer>
+
+  <script>
+    function showMore() {
+      const hiddenMovies = document.querySelectorAll('.extra-movie');
+      hiddenMovies.forEach(movie => movie.classList.remove('hidden'));
+      document.querySelector('.see-more-button').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html
