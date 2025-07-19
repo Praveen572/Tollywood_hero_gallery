@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>jr ntr Movies</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #39297b;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #39297b;
       text-align: center;
     }
 
@@ -17,17 +21,9 @@
       background-color: #1a1a1a;
       color: white;
       padding: 20px 0;
-      margin: 0;
+      font-size: 2rem;
     }
-    .main-content{
-    width: 1200px;
-    height: auto;
-    border: 2rem;
-    border-radius: 10px;
-    background-color: black;
-    margin: 10px auto 10px;
-    padding: 25px;
-    }
+
     .hero-photo {
       width: 250px;
       margin: 20px auto;
@@ -35,14 +31,21 @@
       border: 3px solid #444;
     }
 
+    .main-content {
+      width: 90%;
+      max-width: 1200px;
+      margin: 10px auto;
+      padding: 25px;
+      border-radius: 10px;
+      background-color: black;
+    }
+
     .movies-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 20px;
       gap: 40px;
-      max-width: 1050px;
-      margin: 0 auto;
+      padding: 20px;
     }
 
     .movie-card {
@@ -75,69 +78,119 @@
       display: none;
     }
 
-   .see-more-button {
-    background-color: #FFD700;
-    color: #000;
-    font-weight: bold;
-    border: none;
-    padding: 12px 28px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-  }
+    .see-more-button {
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      padding: 12px 28px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500;
+      transition: all 0.3s ease;
+    }
 
-  .see-more-button:hover {
-    background-color: #FFC300;
-    box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
-    transform: scale(1.05);
-  }
-  .see-more-button:active{
-    transform: scale(0.98);
-  }
-  footer {
-  background-color: black;
-  color: #ffffff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 40px;
-}
+    .see-more-button:hover {
+      background-color: #FFC300;
+      box-shadow: 0 0 15px #FFA500 , 0 0 25px #ff8c00;
+      transform: scale(1.05);
+    }
 
-.foot h3 {
-  margin: 10px 0;
-  font-size: 16px;
-}
+    .see-more-button:active {
+      transform: scale(0.98);
+    }
 
-.foot p {
-  margin: 5px 0;
-  font-size: 14px;
-}
+    footer {
+      background-color: black;
+      color: #ffffff;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
 
-.foot ul {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0;
-}
+    .foot h3 {
+      margin: 10px 0;
+      font-size: 16px;
+    }
 
-.foot ul li {
-  display: inline;
-  margin: 0 10px;
-}
+    .foot p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
 
-.foot ul li a {
-  color: #f0c330;
-  text-decoration: none;
-  font-weight: bold;
-}
+    .foot ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
 
-.foot ul li a:hover {
-  text-decoration: underline;
-  color: #ffeb3b;
-}
+    .foot ul li {
+      display: inline-block;
+      margin: 5px 8px;
+    }
+
+    .foot ul li a {
+      color: #f0c330;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .foot ul li a:hover {
+      text-decoration: underline;
+      color: #ffeb3b;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+        padding: 15px 0;
+      }
+
+      .main-content {
+        width: 90%;
+        padding: 25px;
+      }
+
+      .hero-photo {
+        width: 180px;
+        margin: 15px auto;
+      }
+
+      .movies-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .movie-card {
+        width: 80%;
+        max-width: 300px;
+      }
+
+      .movie-card img {
+        height: 300px;
+      }
+
+      .movie-title {
+        font-size: 14px;
+      }
+
+      .see-more-button {
+        font-size: 16px;
+        padding: 10px 24px;
+      }
+
+      .foot h3, .foot p {
+        font-size: 12px;
+      }
+
+      .foot ul li {
+        display: block;
+        margin: 5px 0;
+      }
+    }
   </style>
 </head>
 <body>
