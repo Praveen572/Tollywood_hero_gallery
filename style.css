@@ -28,7 +28,7 @@ p {
 
 /* Main container */
 .main-content {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
@@ -125,9 +125,9 @@ footer {
   }
 
   .main-content {
-    width: 100%;
+    width: 90%;
     margin: 30px auto;
-    padding: 30px;
+    padding: 10px;
   }
 
   .hero-card {
@@ -140,7 +140,6 @@ footer {
     align-items: center;
     padding: 10px;
     gap: 20px;
-    width:90%;
   }
 
   .hero-card img {
