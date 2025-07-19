@@ -113,54 +113,52 @@ footer {
 }
 
 /* MOBILE VIEW: Devices under 768px */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
-    padding: 20px 0;
-  }
+ @media (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+        padding: 15px 0;
+      }
 
-  p {
-    font-size: 1rem;
-    padding: 10px 0;
-  }
+      .main-content {
+        width: 95%;
+        padding: 15px;
+      }
 
-  .main-content {
-    width: 90%;
-    margin: 30px auto;
-    padding: 10px;
-  }
+      .hero-photo {
+        width: 180px;
+        margin: 15px auto;
+      }
 
-  .hero-card {
-    width: 90%;
-    max-width: 320px;
-  }
+      .movies-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
 
-  .heros-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    gap: 20px;
-  }
+      .movie-card {
+        width: 90%;
+        max-width: 300px;
+      }
 
-  .hero-card img {
-    height: auto;
-  }
+      .movie-card img {
+        height: auto;
+      }
 
-  .hero-name {
-    font-size: 16px;
-  }
+      .movie-title {
+        font-size: 14px;
+      }
 
-  footer {
-    padding: 15px 5px;
-  }
+      .see-more-button {
+        font-size: 16px;
+        padding: 10px 24px;
+      }
 
-  .foot h3,
-  .foot h6 {
-    font-size: 12px;
-  }
+      .foot h3, .foot p {
+        font-size: 12px;
+      }
 
-  .foot ul li {
-    display: block;
-    margin: 5px 0;
-  }
-}
+      .foot ul li {
+        display: block;
+        margin: 5px 0;
+      }
+    }
